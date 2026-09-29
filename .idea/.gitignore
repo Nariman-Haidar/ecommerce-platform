@@ -1,0 +1,19 @@
+# Maven build output
+target/
+
+# Secrets - never commit real values
+.env
+.env.*
+!.env.example
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
